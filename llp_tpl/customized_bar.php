@@ -32,9 +32,7 @@ $nonce = wp_create_nonce("llp_nonce");
     }
     ?>" />
            <?php if ($do == 'edit') { ?>
-        <h1 class="cstmz"><a href="<?php echo get_permalink($post->ID); ?>" target="_blank">
-                <?php _e('View Live Page', 'wp-landing-pages'); ?>
-            </a></h1>
+        <h1 class="cstmz"><a href="<?php echo get_permalink($post->ID); ?>" target="_blank"><?php _e('View Live Page', 'wp-landing-pages'); ?></a></h1>
     <?php } ?>
     <h2 id="customized_bar_heading"></h2>
     <input type="hidden" id="dataIdc" />

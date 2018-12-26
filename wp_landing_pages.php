@@ -277,8 +277,8 @@ function wplp_reg_posttype_landing_page() {
     $labels = array(
         'name' => __('Landing Pages', 'wp-landing-pages'),
         'singular_name' => 'Landing Page', __('Landing Pages', 'wp-landing-pages'),
-        'add_new' => __('Add New', 'wp-landing-pages'),
-        'add_new_item' => __('Add New Landing Page', 'wp-landing-pages'),
+        //'add_new' => __('Add New', 'wp-landing-pages'),
+        //'add_new_item' => __('Add New Landing Page', 'wp-landing-pages'),
         'edit_item' => __('Edit Landing Page', 'wp-landing-pages'),
         'new_item' => __('New Landing Page', 'wp-landing-pages'),
         'all_items' => __('All Landing Pages', 'wp-landing-pages'),
@@ -297,6 +297,10 @@ function wplp_reg_posttype_landing_page() {
         'query_var' => true,
         'rewrite' => array('slug' => 'landing-page'),
         'capability_type' => 'post',
+        'capabilities' => array(
+            'create_posts' => 'do_not_allow', // false < WP 4.5, credit @Ewout
+          ),
+          'map_meta_cap' => true, // Set to `false`, if users are not allowed to edit/delete existing posts
         'has_archive' => true,
         'hierarchical' => false,
         'menu_position' => null,
