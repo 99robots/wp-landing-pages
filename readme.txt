@@ -1,5 +1,5 @@
 === WP Landing Pages ===
-Contributors: hozyali, 99robots, charliepatel
+Contributors: hozyali, 99robots, charliepatel, DraftPress
 Donate link: http://www.intensewp.com/wp-landing-pages/
 Tags: wp landing pages, opt-in, optin, opt-in forms, optin forms, wordpress landing pages, email, email subscribe form, lead capture, opt-in email forms, wordpress lead pages, wordpress leads, wordpress landing pages, create landing pages in wordpress, wordpress landing page plugin, wp landing page
 Requires at least: 3.0.1
