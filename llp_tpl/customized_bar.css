@@ -9,7 +9,7 @@ html body #customized_bar  {
     left:0;
     font-size:14px;
     font-family:Arial, Helvetica, sans-serif;
-    z-index:10000;
+    z-index:1300;
     color:#000000;
 }
 html body #customized_bar h1, html body #customized_bar h2, html body #customized_bar h3  {
@@ -342,4 +342,7 @@ html body #atform_c  {
 }
 html body .link_optin_form {
     margin: 0 7px 5px;
+}
+html body #customized_bar .tox .tox-edit-area__iframe {
+    position: relative !important;
 }
