@@ -4,7 +4,7 @@
   Plugin URI: http://www.intensewp.com/wp-landing-pages/
   Description: Create Unlimited Beautiful Landing Pages in WordPress. Opt-in Forms, Customize Text, Upload photos, Embed videos.
   Author: Intense WP
-  Version: 3.8
+  Version: 3.9
   Author URI: http://www.intensewp.com/
   Text Domain: wp-landing-pages
   Domain Path: /languages
