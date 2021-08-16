@@ -1,10 +1,10 @@
 === WP Landing Pages ===
-Contributors: hozyali, 99robots, charliepatel
+Contributors: DraftPress, 99robots, charliepatel
 Donate link: http://www.intensewp.com/wp-landing-pages/
 Tags: wp landing pages, opt-in, optin, opt-in forms, optin forms, wordpress landing pages, email, email subscribe form, lead capture, opt-in email forms, wordpress lead pages, wordpress leads, wordpress landing pages, create landing pages in wordpress, wordpress landing page plugin, wp landing page
 Requires at least: 3.0.1
-Tested up to: 5.7.2
-Stable tag: 3.8
+Tested up to: 5.8
+Stable tag: 3.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -72,6 +72,9 @@ Go to Settings > Reading > Under Front page displays (top section), select A sta
 3. Customize forms, integrate with auto responders
 
 == Changelog ==
+
+= 3.9 =
+* Tested on 5.8 WordPress
 
 = 3.8 =
 * FIXED: Deprecated functions and libraries
